@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: rgorin
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDK7GfUkTlm2vO0ydt5EQ8nXi4ygTHvLxirziMiML6Y/3h1vFFydSniJwUcFkz7Ryg6CzPOiGL8HMo0NIYB0WxzSCRQUmEbP3hISRB0jcjk52n/BzFp67zYEc8RgmdryEqSe1BwEjXgwOURzE4+i0mXq0kj5DbIrYJMTN2VqvP4Fe0r0LqjR3cMmapU7o5ReT79s0dgiH2ljr9EIvaLfbS48UKAkcuunpAcPFwGFNdJ77Fx2aIzTnaMLTiFJfArlbh6zjlDh2/FspfHZLh9DCmR1Dmy1G5jU0cn5mIf6+OownZNmgM92uEajO+OrWqtnORoIRYSRDmsEOFRS8s7L7K5P6vTbRua8K2aCNK3g+l1OtclbdtFmEztlICqlr2oq1nF+2+Jn5ln5yiLwgijcNnI7dG5/Y19jZKSKeJ2qtQEWNb6tvIKIp0g0qPT+RPjkv3AO7vshqvb3cDHtbdG09rnu1b8kGpLX0O/23CSC+swb2ONSjZ1/2ylb4MBQzatjz8= rgorin@v2303861.hosted-by-vdsina.ru
